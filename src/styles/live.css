@@ -1,0 +1,174 @@
+.live {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 90px;
+}
+
+.live-inner {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.live-header {
+  position: relative;
+}
+
+.live-title {
+  position: relative;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.live-title img {
+  position: relative;
+  width: 154px;
+  height: 40px;
+}
+
+.live-main {
+  position: relative;
+}
+
+.live-slide-wrap {
+  position: relative;
+  height: 455px;
+  margin-top: 23px;
+}
+
+.live-slide-item {
+  position: relative;
+  height: 455px;
+  overflow: hidden;
+  border-radius: 13px;
+}
+
+.live-link {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.live-img {
+  position: relative;
+  width: 100%;
+  height: 455px;
+  overflow: hidden;
+}
+
+.live-img img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.live-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 88px;
+  padding: 20px;
+  background-color: green;
+}
+
+.live-info-badge {
+  position: relative;
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.live-info-name {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.live-schedule {
+  position: absolute;
+  top: 185px;
+  left: 0;
+  width: 100%;
+  background-color: brown;
+  text-align: center;
+}
+
+.live-date {
+  position: relative;
+  font-size: 2.8rem;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.live-time {
+  position: relative;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.live-product-link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: darkblue;
+}
+
+.live-product-img {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.live-product-img img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.live-product-info {
+  position: relative;
+}
+
+.live-product-list {
+  position: relative;
+}
+
+.live-product-name {
+  position: relative;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.live-product-percent {
+  position: relative;
+  font-size: 2rem;
+  color: #ef3e43;
+  font-weight: 700;
+}
+
+.live-product-price {
+  position: relative;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.live-product-price b {
+  position: relative;
+  font-size: 2rem;
+}
+
+.live-footer {
+  position: relative;
+}

@@ -1,0 +1,150 @@
+.books {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 90px;
+}
+
+.books-inner {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.books-header {
+  position: relative;
+}
+
+.books-title {
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+
+.books-txt {
+  position: relative;
+  position: relative;
+  display: block;
+  font-size: 1.8rem;
+  color: #a7a9a7;
+  text-align: center;
+}
+
+.books-main {
+  position: relative;
+  padding: 25px 0;
+}
+
+.books-category {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.books-list {
+  position: relative;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.books-list li {
+  position: relative;
+}
+
+.books-cate-bt {
+  position: relative;
+  display: block;
+  padding: 0px 20px;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 42px;
+  color: #111;
+  cursor: pointer;
+  border-radius: 44px;
+}
+
+.books-cate-bt-active {
+  border: 1px solid transparent !important;
+  background-color: #333 !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+}
+
+.books-slide-wrap {
+  position: relative;
+  height: 400px;
+  margin-top: 23px;
+}
+
+.books-slide-item {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+
+.books-link {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.books-img {
+  position: relative;
+  width: 100%;
+  height: 332px;
+  border: 0.1rem solid rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.books-img img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.books-info {
+  position: relative;
+  height: calc(100% - 332px);
+  text-align: center;
+}
+
+.books-good-list {
+  position: relative;
+}
+
+.books-good-list li {
+  position: relative;
+}
+
+.books-name {
+  position: relative;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.books-price {
+  position: relative;
+  font-size: 1.6rem;
+}
+
+.books-price b {
+  position: relative;
+  font-size: 2rem;
+}
+
+.books-footer {
+  position: relative;
+}

@@ -41,7 +41,7 @@
   width: 150px;
   height: 38px;
   display: block;
-  background-image: url("http://localhost:3000/images/logo.svg");
+  background-image: url(../images/logo.svg);
 }
 
 .header-search {
@@ -80,7 +80,7 @@
   border: none;
   background-color: transparent;
   /* 투명 */
-  background-image: url("http://localhost:3000/images/btn_search.svg");
+  background-image: url(../images/btn_search.svg);
   background-repeat: no-repeat;
   background-position: center;
   font-size: 0;
@@ -155,7 +155,7 @@
   height: 15px;
   display: block;
   margin-left: 6px;
-  background: url(http://localhost:3000/images/badge_hot.svg) no-repeat center;
+  background: url(../images/badge_hot.svg) no-repeat center;
 }
 
 .header-cate li a img {
