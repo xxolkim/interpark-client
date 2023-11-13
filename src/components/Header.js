@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
+import { HeaderTopLeft } from "../styled/header";
 import "../styles/header.css";
 
 function Header() {
@@ -7,7 +8,7 @@ function Header() {
       {/* <!-- 레이아웃 : div --> */}
       <div className="header-inner">
         <div className="header-top">
-          <div className="header-top-left">
+          <HeaderTopLeft w="625" h="50">
             <a href="index.html" className="logo"></a>
             <div className="header-search">
               <form className="search-form">
@@ -17,7 +18,7 @@ function Header() {
               {/* <!-- 사용자가 데이터를 입력 --> */}
             </div>
             {/* <!-- 검색은 div 부여 --> */}
-          </div>
+          </HeaderTopLeft>
           <div className="header-top-right">
             <ul className="member-menu">
               <li>
